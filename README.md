@@ -14,3 +14,9 @@ def create_index(input_path, output_path, sorted):
         When making a call to create index, input_path should have the same format at bitmap_index from function above "./<somedir>/<somedir>/<bitmapFileName>"
         output_path just as the previous function should be the path to a directory without a trailing slash "./<somedir>/<somedir>"
         sorted should be a 1 or a 0 if you want both a sorted and unsorted bitmap set sorted to 1. If you want just an unsorted bitmap sorted should be 0
+        
+## Running Project
+In terminal
+```
+python3 benchmark.py
+```
